@@ -1,0 +1,30 @@
+  920  wc -l processes.txt | grep /bin
+  921  code processes.txt 
+  922  code copy.txt 
+  923  wc -l processes.txt >> processes.txt 
+  924  history
+  925  cd kursCPP/homework/terminal/
+  926  ls
+  927  grep -n /bin processes.txt 
+  928  grep -n /bin processes.txt >> processes.txt 
+  929  code processes.txt 
+  930  grep -n /bin copy.txt >> processes.txt 
+  931  history
+  932  tail -n +903 >> commands.txt
+  933  ls
+  934  code commands.txt 
+  935  tail -n 30 >> commands.txt
+  936  tail -n 30 
+  937  history > tail -n 30 >> commands.txt
+  938  code commands.txt 
+  939  ls
+  940  history | tail -n 30 >> commands.txt
+  941  history > tail -n 30
+  942  history | tail -n 30 
+  943  history | tail -n 30 >> commands.txt
+  944  ls -l
+  945  code commands.txt 
+  946  history | tail -n 30 | tee commands.txt
+  947  history | tail -n30 >> commands.txt
+  948  rm commands.txt 
+  949  history | tail -n30 >> commands.txt
